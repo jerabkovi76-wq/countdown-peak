@@ -1,0 +1,9 @@
+:root { --ink: #0E0F2E; --blue: #2133D8; --yellow: #FFD21A; --bg: #ffffff; }
+body { margin: 0; font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: var(--ink); background: var(--bg); line-height: 1.6; }
+header { background: var(--blue); color: #fff; padding: 32px 16px; }
+header h1 { margin: 0; font-size: 28px; }
+header p { margin: 4px 0 0; opacity: .9; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 16px 48px; }
+a { color: var(--blue); }
+h2 { margin-top: 28px; font-size: 20px; border-left: 6px solid var(--yellow); padding-left: 10px; }
+footer { max-width: 720px; margin: 0 auto; padding: 0 16px 32px; font-size: 14px; opacity: .7; }
